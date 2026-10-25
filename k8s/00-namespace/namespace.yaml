@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mini-projet-2
+  labels:
+    app.kubernetes.io/name: mini-projet-2
+    pod-security.kubernetes.io/enforce: restricted
